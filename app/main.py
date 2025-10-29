@@ -1,4 +1,5 @@
-from app.validators import Number, OneOf
+from app.validators import Validator, Number, OneOf
+Validator = Validator
 
 BUNS = Number(2, 3)
 CHEESE = Number(0, 2)
